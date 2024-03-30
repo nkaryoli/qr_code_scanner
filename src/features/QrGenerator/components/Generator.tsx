@@ -12,7 +12,7 @@ export const QrGenerator = () => {
     }
     return (
         <div className='flex flex-col justify-end gap-5 p-5 items-center h-fit w-[400px]'>
-            <div className='flex items-center justify-center bg-primary w-[320px] h-[320px]'>
+            <div className='flex items-center justify-center bg-primary/80 rounded-xl w-[320px] h-[320px]'>
                 <img className='w-[300px]' src={src} />
             </div>
 

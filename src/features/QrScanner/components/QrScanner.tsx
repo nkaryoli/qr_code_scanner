@@ -29,11 +29,11 @@ const QrScanner = () => {
   },[]);
   
   return (
-    <div className='flex justify-center w-full'>
-      <div className='flex flex-col justify-end gap-5 py-10 items-center h-fit w-fit bg-primary'>
+    <div className='flex justify-center w-full h-full'>
+      <div className='flex flex-col justify-end gap-5 py-10 items-center h-full w-full bg-primary/80 px-5 rounded-xl'>
         {
           scanResult ?
-          <div className='text-xl text-contrast w-full'>Success: <Link className='text-accent' to={"https://"+scanResult}>{scanResult}</Link></div>
+          <div className='text-xl text-contrast w-full h-fit overflow-hidden'>Success: <Link className='text-accent w-full' to={"https://"+scanResult}>{scanResult}</Link></div>
           :<div className='w-full text-contrast text-xl flex flex-col items-center justify-center' id='reader'></div>
         }
       </div>
