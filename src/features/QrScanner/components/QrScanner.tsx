@@ -1,5 +1,6 @@
 import { Html5QrcodeScanner } from 'html5-qrcode';
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const QrScanner = () => {
   const [ scanResult, setScanResult] = useState<string | null>(null);
@@ -32,7 +33,7 @@ const QrScanner = () => {
       <div className='flex flex-col justify-end gap-5 py-10 items-center h-fit w-fit bg-primary'>
         {
           scanResult ?
-          <div className='text-xl text-contrast w-full'>Success: <a className='text-accent' href={"http://"+scanResult}>{scanResult}</a></div>
+          <div className='text-xl text-contrast w-full'>Success: <Link className='text-accent' to={"https://"+scanResult}>{scanResult}</Link></div>
           :<div className='w-full text-contrast text-xl flex flex-col items-center justify-center' id='reader'></div>
         }
       </div>

@@ -7,7 +7,7 @@ export const QrGenerator = () => {
     const [src, setSrc] = useState('');
 
     const generate = () => {
-        QRCode.toDataURL(`https://github.com${userName}`).then(setSrc)
+        QRCode.toDataURL(`https://github.com/${userName}`).then(setSrc)
 
     }
     return (
