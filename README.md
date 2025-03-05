@@ -25,10 +25,13 @@ Follow these steps to run the application on your local machine:
    ```bash
    git clone https://github.com/nkaryoli/qr_code_scanner.git
 2. Navigate to the project directory:
+   ```bash
    cd qr_code_scanner
 3. Install the dependencies:
+   ```bash
    pnpm install
 4. Start the application:
+   ```bash
    pnpm start
 
 ## Usage
