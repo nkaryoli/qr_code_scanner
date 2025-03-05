@@ -1,6 +1,6 @@
 # QR Generator & Reader for GitHub Profiles
 
-![QR Code Example](https://via.placeholder.com/150) <!-- You can add an example image of the generated QR code -->
+![QR Code Example](https://https://raw.githubusercontent.com/nkaryoli/qr_code_scanner/main/public/qr_expample.png)) <!-- You can add an example image of the generated QR code -->
 
 A simple web application that allows you to generate and read QR codes for GitHub profiles. With this tool, you can generate a QR code that points directly to your GitHub profile (using your username) and also scan existing QR codes to retrieve the information they contain.
 
