@@ -1,30 +1,62 @@
-# React + TypeScript + Vite
+# QR Generator & Reader for GitHub Profiles
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![QR Code Example](https://via.placeholder.com/150) <!-- You can add an example image of the generated QR code -->
 
-Currently, two official plugins are available:
+A simple web application that allows you to generate and read QR codes for GitHub profiles. With this tool, you can generate a QR code that points directly to your GitHub profile (using your username) and also scan existing QR codes to retrieve the information they contain.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **QR Generator**: Enter your GitHub username and generate a QR code that links to your profile.
+- **QR Reader**: Scan QR codes to extract the information they contain.
+- **User-Friendly Interface**: Simple and easy-to-use design built with React.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Technologies Used
 
-- Configure the top-level `parserOptions` property like this:
+- **React**: JavaScript library for building the user interface.
+- **QRCode.js**: Library for generating QR codes.
+- **React-QR-Reader**: React component for reading QR codes.
+- **CSS**: Custom styles for the application.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Installation
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Follow these steps to run the application on your local machine:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/nkaryoli/qr_code_scanner.git
+2. Navigate to the project directory:
+   cd qr_code_scanner
+3. Install the dependencies:
+   pnpm install
+4. Start the application:
+   pnpm start
+
+## Usage
+
+# Generate a QR Code
+- Enter your GitHub username in the input field.
+- Click on "Generate QR".
+- The QR code will be generated, and you can download or share it.
+
+# Read a QR Code
+- Click on "Scan QR".
+- Allow access to your device's camera.
+- Point the camera at the QR code.
+- The information contained in the QR code will be displayed on the screen.
+
+## Contributing
+Contributions are welcome! If you have any ideas to improve the app, follow these steps:
+- Fork the repository.
+- Create a new branch (git checkout -b feature/new-feature).
+- Make your changes and commit them (git commit -am 'Add new feature').
+- Push to the branch (git push origin feature/new-feature).
+- Open a Pull Request.
+
+## Contact
+If you have any questions or suggestions, feel free to reach out:
+
+GitHub: nkaryoli
+
+Email: karyoli.ie@gmail.com
+
+Thank you for using QR Generator & Reader for GitHub Profiles! I hope you find it useful.
