@@ -47,6 +47,8 @@ Follow these steps to run the application on your local machine:
 - Point the camera at the QR code.
 - The information contained in the QR code will be displayed on the screen.
 
+# Click [here](https://qr-code-scanner-jet.vercel.app/) to see the app.
+
 ## Contributing
 Contributions are welcome! If you have any ideas to improve the app, follow these steps:
 - Fork the repository.
