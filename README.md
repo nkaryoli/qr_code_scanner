@@ -36,12 +36,12 @@ Follow these steps to run the application on your local machine:
 
 ## Usage
 
-# Generate a QR Code
+## Generate a QR Code
 - Enter your GitHub username in the input field.
 - Click on "Generate QR".
 - The QR code will be generated, and you can download or share it.
 
-# Read a QR Code
+## Read a QR Code
 - Click on "Scan QR".
 - Allow access to your device's camera.
 - Point the camera at the QR code.
